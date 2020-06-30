@@ -1,0 +1,67 @@
+/*body*/
+body {
+    background-color: ivory;
+}
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    border: 3px solid slategrey;
+}
+
+h2 {
+    text-align: center;
+    font-family: monospace;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: block;
+    margin: 0 auto;
+    width: 500px;
+    padding-bottom: 10px;
+}
+
+/*Tables*/
+table {
+    border-collapse: collapse;
+    font-family: monospace;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 0 auto;
+    border: 3px solid slategrey;
+}
+
+td:nth-child(1) {
+    width: 350px;
+    }
+  
+td:nth-child(2) {
+    width: 150px;
+  }
+  
+td:nth-child(3) {
+    width: 450px;
+   }
+
+th, td {
+    border: 1px solid black;
+    padding-left: 15px;
+    line-height: 30px;
+}
+
+th {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+td {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/*fonts*/
+.monospace {
+    font-family: Lucida Console, Courier, monospace;
+  }
+
