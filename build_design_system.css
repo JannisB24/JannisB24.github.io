@@ -1,0 +1,221 @@
+/* body */
+body {
+    background-color: ivory;
+}
+
+h1 {
+    text-align: center;
+}
+
+.text_styles h1 {
+    position: absolute;
+}
+
+h5 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    position: absolute;
+}
+
+p {
+    position: absolute;
+}
+
+ul {
+    margin-top: 150px;
+}
+
+.colors_div h2,
+.fonts_div h2,
+.text_styles_div h2 {
+    margin-left: 400px;
+    position: absolute;
+}
+
+/* divs */
+.colors_div {
+    width: 1312px;
+    height: 533px;
+    border: 2px solid grey;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.fonts_div {
+    width: 1312px;
+    height: 529px;
+    border: 2px solid grey;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.text_styles_div {
+    width: 1312px;
+    height: 454px;
+    border: 2px solid grey;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.first_row_colors .second_row_colors .first_row_fonts .first_row_styles{
+    display: inline-block;
+}
+
+/* color fields */
+.colors {
+    width: 300px;
+    height: 150px;
+    text-align: center;
+}
+
+.storm {
+    background-color: hsl(201, 61%, 12%);
+    float: left;
+    margin-left: 100px;
+    margin-top: 75px;
+    border: 2px solid grey;
+}
+
+.teal {
+    background-color: hsl(187, 52%, 21%);
+    float: left;
+    margin-left: 100px;
+    margin-top: 75px;
+    border: 2px solid grey;
+}
+
+.sunburst {
+    background-color: hsl(15, 59%, 58%);
+    float: left;
+    margin-left: 100px;
+    margin-top: 75px;
+    border: 2px solid grey;
+}
+
+.sand {
+    background-color: hsl(17, 49%, 70%);
+    float: left;
+    margin-left: 100px;
+    margin-top: 75px;
+    border: 2px solid grey;
+}
+
+.eclipse {
+    background-color: hsl(191, 5%, 41%);
+    float: left;
+    margin-left: 100px;
+    margin-top: 75px;
+    border: 2px solid grey;
+}
+
+.cloud {
+    background-color: hsl(32, 20%, 85%);
+    float: left;
+    margin-left: 100px;
+    margin-top: 75px;
+    border: 2px solid grey;
+}
+
+/* font fields */
+.fonts {
+    width: 300px;
+    height: 375px;
+    text-align: center;
+}
+
+.crimson_pro,
+.oswald,
+.chivo {
+    float: left;
+    margin-left: 100px;
+    margin-top: 75px;
+    border: 2px solid grey;
+}
+
+.crimson_pro h3,
+.oswald h3,
+.chivo h3 {
+    text-decoration: underline black;
+}
+
+.crimson_pro {
+    font-family: "Crimson Pro";
+}
+
+.crimson_pro .t400 {
+    font-weight: 400;
+}
+
+.crimson_pro .t400_italic {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.crimson_pro .t700_bold {
+    font-weight: 700;
+}
+
+.oswald {
+    font-family: "Oswald";
+}
+
+.chivo {
+    font-family: "Chivo";
+}
+
+.chivo .t400 {
+    font-weight: 400;
+}
+
+.chivo .t400_italic {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.chivo .t700_bold {
+    font-weight: 700;
+}
+
+/* text styles fields */
+.text_styles {
+    width: 290px;
+    height: 300px;
+}
+
+.h1,
+.h2,
+.p {
+    float: left;
+    margin-left: 100px;
+    margin-top: 75px;
+    border: 2px solid grey;
+    padding-left: 10px;
+}
+
+.text_styles .h2 {
+    position: static;
+    margin-left: -400px;
+}
+
+.text_styles h1 {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: Oswald;
+}
+
+.text_styles h5 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Chivo;
+}
+
+.text_styles p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Crimson Pro";
+}
